@@ -15,12 +15,12 @@ export default function Page() {
     <div className="w-full min-h-screen overflow-x-hidden" ref={mainRef}>
       {/* Explicitly place the navbar first in the DOM order */}
       <Navbar mainRef={mainRef} />
-      
+
       {/* Add id="page1" to the hero section for the GSAP trigger */}
       <div id="page1" className="w-full min-h-screen">
-        <HeroGeometric 
+        <HeroGeometric
           badge="DIALLEXA"
-          title1="Your Language" 
+          title1="Your Language"
           title2="Our Expertise"
         />
       </div>
